@@ -12,8 +12,17 @@ class RankViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.whiteColor()
+        
+        let label = UILabel(frame: CGRectMake(0, 0, 200, 20))
+        label.center = self.view.center
+        label.textAlignment = NSTextAlignment.Center
+        label.adjustsFontSizeToFitWidth = true
+        label.font = UIFont(name: MY_FONT, size: 14)
+        label.text = "hello world"
+        label.textColor = UIColor.blackColor()
+        self.view.addSubview(label)
+        
     }
 
     override func didReceiveMemoryWarning() {

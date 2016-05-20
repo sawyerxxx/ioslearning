@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8DE37DF1ABD7A84E1379BCA1FE8E557B780A9C2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0834C28B4A1808029F4B4B6B3C6AD5EC63F98E15" : 0,
+    "8DE37DF1ABD7A84E1379BCA1FE8E557B780A9C2B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B5EEB673-6231-4311-BB2B-6A5C141577A2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0834C28B4A1808029F4B4B6B3C6AD5EC63F98E15" : "",
+    "8DE37DF1ABD7A84E1379BCA1FE8E557B780A9C2B" : "ioslearning\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyTableView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swift\/xiaobo\/MyTableView\/MyTableView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sawyerxxx\/learngit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0834C28B4A1808029F4B4B6B3C6AD5EC63F98E15"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sawyerxxx\/ioslearning.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8DE37DF1ABD7A84E1379BCA1FE8E557B780A9C2B"
+    }
+  ]
+}

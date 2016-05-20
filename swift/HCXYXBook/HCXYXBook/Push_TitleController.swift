@@ -8,12 +8,26 @@
 
 import UIKit
 
+typealias Push_TitleCallBack = (Title:String) -> Void
+
 class Push_TitleController: UIViewController {
 
+    var textField:UITextField?
+    var callBack:Push_TitleCallBack?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.whiteColor()
+        
+        self.textField = UITextField(frame: CGRect(x: 15, y: 60, width: SCREEN_WIDTH - 30, height: 30))
+        self.textField?.borderStyle = .RoundedRect
+        self.textField?.placeholder = "书评标题" //返回提示语句
+        self.textField?.font = UIFont(name: MY_FONT, size: 15)
+        self.view.addSubview(self.textField!)
+
+        self.textField?.becomeFirstResponder()  //响应textfield 会直接跳出键盘
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,14 +36,14 @@ class Push_TitleController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func sure() {
+        self.callBack?(Title: self.textField!.text!)
     }
-    */
+    
+    func close() {
+        self.dismissViewControllerAnimated(true) { () -> Void in
+            
+        }
+    }
 
 }

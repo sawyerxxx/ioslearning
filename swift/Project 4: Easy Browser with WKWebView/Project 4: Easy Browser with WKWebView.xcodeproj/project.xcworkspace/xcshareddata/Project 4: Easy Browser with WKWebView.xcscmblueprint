@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8DE37DF1ABD7A84E1379BCA1FE8E557B780A9C2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0834C28B4A1808029F4B4B6B3C6AD5EC63F98E15" : 0,
+    "8DE37DF1ABD7A84E1379BCA1FE8E557B780A9C2B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E72F385-CD4E-4F2A-AA63-D63CA7F02A36",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0834C28B4A1808029F4B4B6B3C6AD5EC63F98E15" : "",
+    "8DE37DF1ABD7A84E1379BCA1FE8E557B780A9C2B" : "ioslearning\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Project 4: Easy Browser with WKWebView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swift\/Project 4: Easy Browser with WKWebView\/Project 4: Easy Browser with WKWebView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sawyerxxx\/learngit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0834C28B4A1808029F4B4B6B3C6AD5EC63F98E15"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sawyerxxx\/ioslearning.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8DE37DF1ABD7A84E1379BCA1FE8E557B780A9C2B"
+    }
+  ]
+}

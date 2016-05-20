@@ -15,7 +15,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+       
+        self.window = UIWindow(frame: CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT))
+        
+        let tabbarController = UITabBarController()
+        
+        let rankController = UINavigationController(rootViewController: RankViewController())
+        let searchController = UINavigationController(rootViewController: SearchViewController())
+        let pushController = UINavigationController(rootViewController: PushViewController())
+        let circleController = UINavigationController(rootViewController: CircleViewController())
+        let moreController = UINavigationController(rootViewController: MoreViewController())
+        
+        tabbarController.viewControllers = [rankController, searchController, pushController, circleController, moreController]
+        
+        let tabbarItem1 = UITabBarItem(title: "排行榜", image: UIImage(named: "bio"), selectedImage: UIImage(named: "bio_red"))
+        let tabbarItem2 = UITabBarItem(title: "发现", image: UIImage(named: "timer 2"), selectedImage: UIImage(named: "timer 2"))
+        let tabbarItem3 = UITabBarItem(title: "", image: UIImage(named: "pencil"), selectedImage: UIImage(named: "user two-2 red"))
+        let tabbarItem4 = UITabBarItem(title: "圈子", image: UIImage(named: "users two-2"), selectedImage: UIImage(named: "users two-2_red"))
+        let tabbarItem5 = UITabBarItem(title: "更多", image: UIImage(named: "more"), selectedImage: UIImage(named: "more_red"))
+
+        rankController.tabBarItem = tabbarItem1
+        searchController.tabBarItem = tabbarItem2
+        pushController.tabBarItem = tabbarItem3
+        circleController.tabBarItem = tabbarItem4
+        moreController.tabBarItem = tabbarItem5
+        
+        rankController.tabBarController?.tabBar.tintColor = MAIN_RED
+        
+        self.window?.rootViewController = tabbarController
+        self.window?.makeKeyAndVisible()
+        
+        
+        
         return true
     }
 

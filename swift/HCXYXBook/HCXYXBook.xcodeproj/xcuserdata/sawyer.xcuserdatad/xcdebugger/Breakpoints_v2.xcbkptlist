@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HCXYXBook/RankViewController.swift"
+            timestampString = "483196440.01513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HCXYXBook/PushNewBookController.swift"
+            timestampString = "483631045.84319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HCXYXBook/PushNewBookController.swift"
+            timestampString = "483364088.87267"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "PushNewBookController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HCXYXBook.PushNewBookController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; HCXYXBook.PushNewBookController"
+                  moduleName = "HCXYXBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sawyer/sawgit/ioslearning/swift/HCXYXBook/HCXYXBook/PushNewBookController.swift"
+                  timestampString = "484038094.089287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HCXYXBook.PushNewBookController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;HCXYXBook.PushNewBookController&gt;"
+                  moduleName = "HCXYXBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sawyer/sawgit/ioslearning/swift/HCXYXBook/HCXYXBook/PushNewBookController.swift"
+                  timestampString = "484038094.089808"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HCXYXBook/BookTitleView.swift"
+            timestampString = "483366518.204328"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "init(frame:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HCXYXBook/PhotoPickerViewController.swift"
+            timestampString = "483368943.024519"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HCXYXBook.PhotoPickerViewController.viewDidAppear (Swift.Bool) -&gt; ()"
+                  moduleName = "HCXYXBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sawyer/sawgit/ioslearning/swift/HCXYXBook/HCXYXBook/PhotoPickerViewController.swift"
+                  timestampString = "484038094.096772"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "2071">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HCXYXBook.PhotoPickerViewController.(viewDidAppear (Swift.Bool) -&gt; ()).(closure #4)"
+                  moduleName = "HCXYXBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sawyer/sawgit/ioslearning/swift/HCXYXBook/HCXYXBook/PhotoPickerViewController.swift"
+                  timestampString = "484038094.097404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HCXYXBook/PushNewBookController.swift"
+            timestampString = "483884413.285506"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "getImageFromPicker(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HCXYXBook/PhotoPickerViewController.swift"
+            timestampString = "483884490.188897"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "PhotoPickerViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HCXYXBook.PhotoPickerViewController.init () -&gt; HCXYXBook.PhotoPickerViewController"
+                  moduleName = "HCXYXBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sawyer/sawgit/ioslearning/swift/HCXYXBook/HCXYXBook/PhotoPickerViewController.swift"
+                  timestampString = "484038094.101944"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HCXYXBook.PhotoPickerViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;HCXYXBook.PhotoPickerViewController&gt;"
+                  moduleName = "HCXYXBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sawyer/sawgit/ioslearning/swift/HCXYXBook/HCXYXBook/PhotoPickerViewController.swift"
+                  timestampString = "484038094.102349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HCXYXBook.PhotoPickerViewController.delegate.getter : Swift.ImplicitlyUnwrappedOptional&lt;HCXYXBook.PhotoPickerDelegate&gt;"
+                  moduleName = "HCXYXBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sawyer/sawgit/ioslearning/swift/HCXYXBook/HCXYXBook/PhotoPickerViewController.swift"
+                  timestampString = "484038094.102882"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "181">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HCXYXBook.PhotoPickerViewController.delegate.setter : Swift.ImplicitlyUnwrappedOptional&lt;HCXYXBook.PhotoPickerDelegate&gt;"
+                  moduleName = "HCXYXBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sawyer/sawgit/ioslearning/swift/HCXYXBook/HCXYXBook/PhotoPickerViewController.swift"
+                  timestampString = "484038094.103315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "522">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HCXYXBook/PushNewBookController.swift"
+            timestampString = "484065732.099347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "tableViewSelectType()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

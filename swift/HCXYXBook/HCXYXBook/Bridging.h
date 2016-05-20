@@ -6,8 +6,7 @@
 //  Copyright © 2016年 sawyerhuang. All rights reserved.
 //
 
-#ifndef Bridging_h
-#define Bridging_h
-
-
-#endif /* Bridging_h */
+#import <AVOSCloud/AVOSCloud.h>
+#import "JVFloatLabeledTextField.h"
+#import "VPImageCropperViewController.h"
+#import "LDXScore.h"

@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		24399D891CABC7E300BCBE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24399D881CABC7E300BCBE2A /* AppDelegate.swift */; };
 		24399D8B1CABC7E300BCBE2A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24399D8A1CABC7E300BCBE2A /* MasterViewController.swift */; };
-		24399D8D1CABC7E300BCBE2A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24399D8C1CABC7E300BCBE2A /* DetailViewController.swift */; };
 		24399D901CABC7E300BCBE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24399D8E1CABC7E300BCBE2A /* Main.storyboard */; };
 		24399D921CABC7E300BCBE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24399D911CABC7E300BCBE2A /* Assets.xcassets */; };
 		24399D951CABC7E400BCBE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24399D931CABC7E400BCBE2A /* LaunchScreen.storyboard */; };
+		24C2DC6F1CB88A580092D619 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24C2DC6E1CB88A580092D619 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24399D851CABC7E300BCBE2A /* Project 5: Word Scramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 5: Word Scramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24399D881CABC7E300BCBE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24399D8A1CABC7E300BCBE2A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		24399D8C1CABC7E300BCBE2A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		24399D8F1CABC7E300BCBE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24399D911CABC7E300BCBE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24399D941CABC7E400BCBE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24399D961CABC7E400BCBE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C2DC6E1CB88A580092D619 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				24399D881CABC7E300BCBE2A /* AppDelegate.swift */,
 				24399D8A1CABC7E300BCBE2A /* MasterViewController.swift */,
-				24399D8C1CABC7E300BCBE2A /* DetailViewController.swift */,
 				24399D8E1CABC7E300BCBE2A /* Main.storyboard */,
 				24399D911CABC7E300BCBE2A /* Assets.xcassets */,
 				24399D931CABC7E400BCBE2A /* LaunchScreen.storyboard */,
 				24399D961CABC7E400BCBE2A /* Info.plist */,
+				24C2DC6E1CB88A580092D619 /* start.txt */,
 			);
 			path = "Project 5: Word Scramble";
 			sourceTree = "<group>";
@@ -126,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24399D951CABC7E400BCBE2A /* LaunchScreen.storyboard in Resources */,
+				24C2DC6F1CB88A580092D619 /* start.txt in Resources */,
 				24399D921CABC7E300BCBE2A /* Assets.xcassets in Resources */,
 				24399D901CABC7E300BCBE2A /* Main.storyboard in Resources */,
 			);
@@ -138,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24399D8D1CABC7E300BCBE2A /* DetailViewController.swift in Sources */,
 				24399D8B1CABC7E300BCBE2A /* MasterViewController.swift in Sources */,
 				24399D891CABC7E300BCBE2A /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +288,7 @@
 				24399D9B1CABC7E400BCBE2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

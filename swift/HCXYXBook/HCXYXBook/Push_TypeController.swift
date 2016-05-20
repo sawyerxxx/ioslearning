@@ -12,8 +12,8 @@ class Push_TypeController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.view.backgroundColor = UIColor.whiteColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,14 +22,14 @@ class Push_TypeController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func sure() {
+        
     }
-    */
+    
+    func close() {
+        self.dismissViewControllerAnimated(true) { () -> Void in
+            
+        }
+    }
 
 }
