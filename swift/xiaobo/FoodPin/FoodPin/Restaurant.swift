@@ -1,4 +1,4 @@
-//
+ //
 //  Restaurant.swift
 //  FoodPin
 //
@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+ struct Restaurant {
+    var name: String
+    var type: String
+    var location: String
+    var image: String
+    var isVisited: Bool
+ }
+ 

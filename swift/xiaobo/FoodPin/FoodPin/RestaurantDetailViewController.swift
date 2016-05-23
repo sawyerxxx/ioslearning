@@ -9,15 +9,16 @@
 import UIKit
 
 class RestaurantDetailViewController: UIViewController {
-
+    var restaurant: Restaurant!
     @IBOutlet weak var restaurantImageView: UIImageView!
     
-    var restaurantName = ""
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        restaurantImageView.image = UIImage(named: restaurant.image)
         
-        restaurantImageView.image = UIImage(named: restaurantName)
+        
 
         // Do any additional setup after loading the view.
     }

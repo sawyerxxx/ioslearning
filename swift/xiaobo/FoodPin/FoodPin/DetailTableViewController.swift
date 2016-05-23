@@ -10,9 +10,27 @@ import UIKit
 
 class DetailTableViewController: UITableViewController {
 
+    var restaurant: Restaurant!
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        imageView.image = UIImage(named: restaurant.image)
+        
+        tableView.backgroundColor = UIColor(white: 0.98, alpha: 1)
+        //移除空行的分隔线
+        tableView.tableFooterView = UIView(frame: CGRectZero)
+        //淡化分隔线颜色
+        tableView.separatorColor = UIColor(white: 0.9, alpha: 1)
+        
+        title = restaurant.name 
+        
+        //启用自适应
+        tableView.estimatedRowHeight = 36
+        tableView.rowHeight = UITableViewAutomaticDimension
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -29,23 +47,42 @@ class DetailTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 4
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("DetailCell", forIndexPath: indexPath) as! DetailTableViewCell
 
-        // Configure the cell...
-
+        switch indexPath.row {
+        case 0:
+            cell.fieldLabel.text = "餐馆名"
+            cell.valueLabel.text = restaurant.name
+        case 1:
+            cell.fieldLabel.text = "类型"
+            cell.valueLabel.text = restaurant.type
+        case 2:
+            cell.fieldLabel.text = "地点"
+            cell.valueLabel.text = restaurant.location
+        case 3:
+            cell.fieldLabel.text = "是否来过"
+            cell.valueLabel.text = restaurant.isVisited ? "来过" : "没来过"
+        default:
+            cell.fieldLabel.text = ""
+            cell.valueLabel.text = ""
+        }
+        
+        //单元格背景透明
+        cell.backgroundColor = UIColor.clearColor()
+        
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
